@@ -1,23 +1,26 @@
-# Sole to Soul Health website
+# Sole Health website
 
-Static, mobile-friendly homepage prepared from the supplied content and the current Sole to Soul Health homepage. It keeps the current brand, Jill Duncan's public business details, and Life Coaching offering, alongside the Foot Zoning and Zone Reflex descriptions and prices in the supplied content.
+A responsive static homepage for Sole Health, featuring Foot Zoning and Zone Reflex.
 
-## Files
+## Includes
+- Services and current prices
+- Booking links to the existing Wix booking pages
+- Comfort amenities: zero-gravity chair, warm towels, eye mask, optional weighted blanket
+- Practitioner introduction and Wellness Life Zone training credentials
+- Mobile-responsive styling
 
-- `index.html` — homepage, SEO metadata, FAQs, and Schema.org business/service details
-- `styles.css` — layout, visual design, and mobile styles
-- `script.js` — mobile navigation and current copyright year
-- `robots.txt` and `sitemap.xml` — basic crawler discovery
+## Before launch
+- Replace the sample stock photographs with your own authentic treatment-room and headshot photos, or properly licensed photographs.
+- Personalize the About section with your name and a few details.
+- Add preferred contact details and location.
+- Review the site on desktop and mobile.
+- Confirm hosting and domain settings before changing DNS. The domain has previously been connected to Wix; changing DNS may interrupt the current Wix website.
 
-## Payments and booking links
+## Booking links
+- Foot Zone 60 min: https://www.solehealthutah.com/booking-calendar/foot-zone-60-minutes
+- Foot Zone 75 min: https://www.solehealthutah.com/booking-calendar/foot-zone-75-minutes
+- Zone Reflex 60 min: https://www.solehealthutah.com/booking-calendar/zone-reflex-60-minutes
+- Zone Reflex 90 min: https://www.solehealthutah.com/booking-calendar/zone-reflex-90-minutes
 
-This static website does not process payments or store card information. Its Foot Zoning and Zone Reflex buttons point to `/booking-calendar/...` pages on `www.solehealthutah.com`. Those pages appear to be part of the current Wix-powered site. If the domain is moved to a different host, those paths may stop working. Confirm where appointments and payment are handled before changing the domain's web records; keep the current booking/payment service online or replace the links with its durable hosted booking URLs.
-
-## GitHub and hosting
-
-The source files can be stored in a GitHub repository. GitHub Pages is not a suitable host for this site: GitHub's current policy says Pages is not intended or allowed as free hosting for an online business or a site primarily directed at commercial transactions. Use a commercial website host for the live site, and keep GitHub as the source-code repository if desired.
-
-Do not change Squarespace DNS records until the new host and booking/payment links are ready. DNS controls where the domain and subdomains point; changing the web records can take the current Wix homepage and its booking paths offline. Preserve email/MX records. Once a host is chosen, follow its current domain setup instructions and then update the canonical URL and sitemap if the preferred domain changes.
-
-The homepage uses semantic headings, concise service and pricing information, FAQs, local business details, metadata, and structured data to help search engines and AI systems understand the business. No payment integration is included.
-
+## Hosting
+This is a static HTML/CSS site suitable for GitHub Pages or another static host. Do not switch the production domain until the preview has been reviewed and the existing Wix connection is intentionally replaced.
