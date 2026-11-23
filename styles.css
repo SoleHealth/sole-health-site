@@ -42,3 +42,8 @@
 .difference-card h3 { margin: 0 0 12px; color: var(--deep); font-family: var(--serif); font-size: 25px; font-weight: 400; }
 .difference-card p { margin: 0; color: var(--muted); font-size: 14px; }
 @media(max-width:600px) { .difference { padding-top: 70px; padding-bottom: 75px; } .difference-grid { grid-template-columns: 1fr; gap: 12px; } .difference-card { padding: 25px 23px; } }
+
+
+/* Services page comfort note */
+.service-comfort { max-width: 620px; margin: 24px auto 0 !important; padding: 16px 22px; background: rgba(255,255,255,.55); border: 1px solid #e5e3d9; color: var(--muted); font-size: 13px; line-height: 1.7; }
+.service-comfort strong { color: var(--deep); font-family: var(--serif); font-size: 20px; font-weight: 400; }
