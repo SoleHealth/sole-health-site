@@ -47,3 +47,5 @@
 /* Services page comfort note */
 .service-comfort { max-width: 620px; margin: 24px auto 0 !important; padding: 16px 22px; background: rgba(255,255,255,.55); border: 1px solid #e5e3d9; color: var(--muted); font-size: 13px; line-height: 1.7; }
 .service-comfort strong { color: var(--deep); font-family: var(--serif); font-size: 20px; font-weight: 400; }
+
+.service-energy { max-width: 700px; margin: 20px auto 0; color: var(--muted); font-size: 14px; }
